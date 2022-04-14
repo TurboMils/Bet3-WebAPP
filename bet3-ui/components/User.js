@@ -1,21 +1,21 @@
 import React from 'react'
 
-const User = () => {
+const User = ({ user }) => {
   return (
-    <tr>
+    <tr key={user}>
                         <td className='text-left px-6 py-4 whitespace-nowrap'>
                             <div className='text-sm text-gray-500'>
-                                Milan
+                                {user.firstName}
                             </div>
                         </td>
                         <td className='text-left px-6 py-4 whitespace-nowrap'>
                             <div className='text-sm text-gray-500'>
-                                Kot
+                                {user.lastName}
                             </div>
                         </td>
                         <td className='text-left px-6 py-4 whitespace-nowrap'>
                             <div className='text-sm text-gray-500'>
-                                milan.kot@orange.com
+                                {user.email}
                             </div>
                         </td>
                         <td className='text-right px-6 py-4 whitespace-nowrap'>
