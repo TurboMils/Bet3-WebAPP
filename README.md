@@ -1,6 +1,4 @@
 # Bet3-WebAPP
 
-REST-API
-SpringBoot
-Next.js
-Tailwind CSS
+User Interface
+Built in next.js
