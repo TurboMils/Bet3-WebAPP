@@ -20,10 +20,10 @@ const UserList = () => {
           } catch (error) {
               console.log(error);
           }
-          setLoading(false);
+          setloading(false);
       };
       fetchData();
-    });
+    },[]);
     
   return (
     <div className='container mx-auto my-8'>
