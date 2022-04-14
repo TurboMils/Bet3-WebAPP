@@ -1,4 +1,2 @@
-# Bet3-WebAPP
-
-User Interface
-Built in next.js
+org.hsqldb.jdbc.JDBCDriver
+spring.datasource.url=jdbc:hsqldb:hsql://localhost/bet3db
