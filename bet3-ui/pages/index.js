@@ -13,8 +13,6 @@ export default function Home() {
       <Navbar />
       <main>
         <AddUser/>
-        <UserList/>
-        
       </main>
     </div>
   );
