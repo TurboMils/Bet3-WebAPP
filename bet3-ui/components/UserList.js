@@ -4,10 +4,10 @@ import User from './User'
 const UserList = () => {
     const USER_API_BASE_URL = "http://localhost:8080/api/v1/users";
     const [users, setUsers] = useState(null);
-    const [loading, setloading] = useState(true);
+    const [loading, setLoading] = useState(true);
     useEffect(() => {
       const fetchData = async () => {
-          setloading(true);
+          setLoading(true);
           try {
               const response = await fetch(USER_API_BASE_URL, {
                   method : "GET",
@@ -20,7 +20,7 @@ const UserList = () => {
           } catch (error) {
               console.log(error);
           }
-          setloading(false);
+          setLoading(false);
       };
       fetchData();
     },[]);
