@@ -47,7 +47,7 @@ const UserList = ({ user }) => {
 
         return (
             <>
-            <div className='container mx-auto my-10'>
+            <div className='container px-10 my-10'>
                 <div className='flex shadow border-b'>
                     <table className='min-w-full'>
                         <thead className='bg-gray-50'>

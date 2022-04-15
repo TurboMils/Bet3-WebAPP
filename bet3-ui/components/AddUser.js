@@ -56,7 +56,7 @@ const AddUser = () => {
   };
   return (
     <>
-      <div className="container mx-8 my-8">
+      <div className="container px-10 my-8">
         <div className="h-12">
           <button
             onClick={() => setShowModal(true)}
@@ -93,7 +93,7 @@ const AddUser = () => {
                         name="firstName"
                         value={user.firstName}
                         onChange={(e) => handleChange(e)}
-                        className="h-10 w-96 border mt-2 px-2 py-2 "></input>
+                        className="h-10 w-96 border font-semibold mt-2 px-2 py-2 "></input>
                     </div>
                     <div className="h-14 my-4">
                       <label className="block text-gray-600 text-sm font-normal">
@@ -104,7 +104,9 @@ const AddUser = () => {
                         name="lastName"
                         value={user.lastName}
                         onChange={(e) => handleChange(e)}
-                        className="h-10 w-96 border mt-2 px-2 py-2"></input>
+                        className="h-10 w-96 border mt-2 px-2 py-2 font-semibold">
+
+                        </input>
                     </div>
                     <div className="h-14 my-4">
                       <label className="block text-gray-600 text-sm font-normal">
@@ -115,7 +117,7 @@ const AddUser = () => {
                         name="emailId"
                         value={user.emailId}
                         onChange={(e) => handleChange(e)}
-                        className="h-10 w-96 border mt-2 px-2 py-2">
+                        className="h-10 w-96 border mt-2 px-2 py-2 font-semibold">
 
                       </input>
                     </div>
@@ -134,7 +136,7 @@ const AddUser = () => {
                   Close
                 </button>
                 <button
-                  className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                  className="bg-slate-600 text-white active:bg-slate-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                   type="button"
                   onClick={saveUser}
                 >

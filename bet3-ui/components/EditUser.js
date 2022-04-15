@@ -97,7 +97,7 @@ const EditUser = ({ userId, setResponseUser }) => {
                                                 name="firstName"
                                                 value={user.firstName}
                                                 onChange={(e) => handleChange(e)}
-                                                className="h-10 w-96 border mt-2 px-2 py-2 "></input>
+                                                className="h-10 w-96 border mt-2 px-2 py-2 font-semibold"></input>
                                         </div>
                                         <div className="h-14 my-4">
                                             <label className="block text-gray-600 text-sm font-normal">
@@ -108,10 +108,10 @@ const EditUser = ({ userId, setResponseUser }) => {
                                                 name="lastName"
                                                 value={user.lastName}
                                                 onChange={(e) => handleChange(e)}
-                                                className="h-10 w-96 border mt-2 px-2 py-2"></input>
+                                                className="h-10 w-96 border mt-2 px-2 py-2 font-semibold"></input>
                                         </div>
                                         <div className="h-14 my-4">
-                                            <label className="block text-gray-600 text-sm font-normal">
+                                            <label className="block text-gray-600  text-sm font-normal">
                                                 Email Id
                                             </label>
                                             <input
@@ -139,7 +139,7 @@ const EditUser = ({ userId, setResponseUser }) => {
                                         Close
                                     </button>
                                     <button
-                                        className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                                        className="bg-slate-500 text-white active:bg-slate-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                                         type="button"
                                         onClick={updateUser}
                                     >
