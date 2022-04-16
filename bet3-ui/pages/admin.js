@@ -2,7 +2,6 @@
 
 import UserList from '../components/UserList';
 import AddUser from '../components/AddUser';
-
 import { ArrowRight } from '@styled-icons/feather';
 import Head from 'next/head';
 
@@ -14,6 +13,7 @@ import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import styles from '../styles/Home.module.css';
 import URLs from '../urls';
+import { Card } from '../components/Card';
 
 export default function Home() {
   return (
@@ -72,8 +72,8 @@ export default function Home() {
           <Navbar />
         
         </section>
-        
-        <AddUser/>
+        <Card  imagePath ="/assets/images/card2.svg" value={<AddUser />} text = "AdminIstrator"/>
+  
         <Footer />
 
       </main>
