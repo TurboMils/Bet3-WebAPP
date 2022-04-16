@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@styled-icons/feather": "^10.34.0",
     "framer-motion": "^6.3.0",
     "next": "^12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "sass": "^1.50.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
