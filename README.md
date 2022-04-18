@@ -58,4 +58,7 @@ GET : tous les livres dans la table LIVRES
 
 
 
+![image](https://user-images.githubusercontent.com/93132535/163888634-3a848792-d482-4401-91ec-8c0243c8cfac.png)
+![image](https://user-images.githubusercontent.com/93132535/163888731-149d5c1d-731e-48c4-b09e-247738e7faaa.png)
+
 
