@@ -61,7 +61,7 @@ const AddLivre = () => {
           <button
             onClick={() => setShowModal(true)}
             className="rounded bg-slate-600 text-white px-6 py-2 font-semibold">
-            Add Livre
+            Ajouter Livre
           </button>
         </div>
       </div>
