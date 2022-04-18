@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 import URLs from '../urls';
 import { Card } from '../components/Card';
 

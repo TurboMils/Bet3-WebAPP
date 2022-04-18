@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import URLs from '../urls';
-import styles from './Navbar.module.css';
+import styles from './Navbar.module.scss';
 
 export function Navbar() {
   return (

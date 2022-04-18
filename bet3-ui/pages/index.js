@@ -11,7 +11,7 @@ import { CardSection } from '../components/CardSection';
 import { Footer } from '../components/Footer';
 import { JoinPrompt } from '../components/JoinPrompt';
 import { Navbar } from '../components/Navbar';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 import URLs from '../urls';
 
 export default function Home() {
