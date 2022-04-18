@@ -16,10 +16,10 @@ export function Navbar() {
 
           <div className={styles.actions}>
             <a href={URLs.GitHub}>GitHub</a>
-            <a>Why BET3?</a>
-            <a href={URLs.Admin}> Administrator</a>
-            <a>Contribute</a>
-            <a>Request Early Access</a>
+            <a href={URLs.Admin}> Administration</a>
+            <a href={URLs.Books}>Nos livres</a>
+            <a href={URLs.Qui}>Qui sommes nous</a>
+            <a>Early access</a>
           </div>
         </div>
       </div>

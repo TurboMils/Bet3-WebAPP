@@ -18,12 +18,12 @@ const User = ({ user, deleteUser, editUser }) => {
                     <button
                         onClick={(e, id) => editUser(e, user.id)}
                         className="rounded bg-slate-300 text-black px-6 py-2 font-semibold">
-                        Edit
+                        Editer
                     </button>
                     <button
                         onClick={(e, id) => deleteUser(e, user.id)}
                         className="rounded  bg-slate-600 text-white px-6 py-2 font-semibold">
-                        Delete
+                        Supprimer
                     </button>
                 </div>
             </td>

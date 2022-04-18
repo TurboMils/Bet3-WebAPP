@@ -1,3 +1,7 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.project.sourcePaths": [
+        "Bet3-API\\src\\main\\java\\com\\exemple\\bet3",
+        "Bet3-API\\src\\main\\java\\com\\exemple\\bet3\\livres"
+    ]
 }

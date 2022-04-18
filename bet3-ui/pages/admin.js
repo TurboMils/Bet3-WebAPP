@@ -1,14 +1,9 @@
 
 
-import UserList from '../components/UserList';
 import AddUser from '../components/AddUser';
-import { ArrowRight } from '@styled-icons/feather';
+
 import Head from 'next/head';
 
-import { CardSection } from '../components/CardSection';
-
-import { JoinLinks } from '../components/JoinLinks';
-import { JoinPrompt } from '../components/JoinPrompt';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import styles from '../styles/Home.module.css';
@@ -19,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>BET3</title>
+        <title>Netscape</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/bpi8rtm.css" />
         <meta
@@ -27,11 +22,11 @@ export default function Home() {
           content="width=device-width, initial-scale=0.9, user-scalable=0"
         />
 
-        <meta property="og:title" content="BET3" />
-        <meta property="og:url" content="https://BET3.page" />
+        <meta property="og:title" content="Netscape" />
+        <meta property="og:url" content="https://Netscape.page" />
         <meta
           property="og:image"
-          content="https://BET3.page/BET3.gif"
+          content="https://Netscape.page/Netscape.gif"
         />
         <meta
           property="og:description"
@@ -43,7 +38,7 @@ export default function Home() {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:image"
-          content="https://BET3.page/BET3.gif"
+          content="https://Netscape.page/Netscape.gif"
         />
         <meta
           property="twitter:image:alt"
@@ -72,7 +67,7 @@ export default function Home() {
           <Navbar />
         
         </section>
-        <Card  imagePath ="/assets/images/card2.svg" value={<AddUser />} text = "AdminIstrator"/>
+        <Card  imagePath ="/assets/images/card2.svg" value={<AddUser />} text = "Administrator"/>
   
         <Footer />
 

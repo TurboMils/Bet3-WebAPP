@@ -7,26 +7,25 @@ export function CardSection() {
       <div className={styles.card}>
         <div className={styles.info}>
           <img src="/assets/images/card1.svg" draggable={false} />
-          <h1>Modern workforce</h1>
+          <h1>Spring boot</h1>
           <p>
-            Multistakeholder governance aligns members with the collective wider
-            community.
-          </p>
-        </div>
-        <div className={styles.info}>
-          <img src="/assets/images/card2.svg" draggable={false} />
-          <h1>Meritocratic by design</h1>
-          <p>
-            Tokenized ownership aligns deeply committed individuals with the
-            collective’s success.
+          Le projet Spring Boot est une extension du Spring Framework pour mettre en place rapidement des applications Java.
           </p>
         </div>
         <div className={styles.info}>
           <img src="/assets/images/card3.svg" draggable={false} />
-          <h1>Engineered for resilience</h1>
+          <h1>Tailwind CSS</h1>
           <p>
-            BET3 supports best practices in sociocratic management.
-            Omni-Channel environments for real-time communication.
+          Tailwind CSS est un framework utility-fist avec des 
+          classes prédéfinies pour construire et concevoir des pages web dans votre balisage.
+          </p>
+        </div>
+        <div className={styles.info}>
+          <img src="/assets/images/card2.svg" draggable={false} />
+          <h1>Next.js</h1>
+          <p>
+          Next.js est un framework gratuit et open source s'appuyant sur la librairie 
+          JavaScript React3 et sur la technologie Node.js. .
           </p>
         </div>
       </div>

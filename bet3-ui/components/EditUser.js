@@ -81,7 +81,7 @@ const EditUser = ({ userId, setResponseUser }) => {
                                 {/*header*/}
                                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
                                     <h3 className="text-3xl font-semibold">
-                                        Update
+                                        Modifier
                                     </h3>
                                 </div>
 
@@ -143,7 +143,7 @@ const EditUser = ({ userId, setResponseUser }) => {
                                         type="button"
                                         onClick={updateUser}
                                     >
-                                        Update
+                                        Modifier
                                     </button>
 
                                 </div>
