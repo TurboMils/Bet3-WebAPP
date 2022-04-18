@@ -90,7 +90,7 @@ const EditUser = ({ userId, setResponseUser }) => {
                                     <div className="py-2">
                                         <div className="h-14 my-4">
                                             <label className="block text-gray-600 text-sm font-normal">
-                                                First Name
+                                                Prenom
                                             </label>
                                             <input
                                                 type="text"
@@ -101,7 +101,7 @@ const EditUser = ({ userId, setResponseUser }) => {
                                         </div>
                                         <div className="h-14 my-4">
                                             <label className="block text-gray-600 text-sm font-normal">
-                                                Last Name
+                                                Nom
                                             </label>
                                             <input
                                                 type="text"

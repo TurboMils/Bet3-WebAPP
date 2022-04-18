@@ -86,7 +86,7 @@ const AddUser = () => {
                   <div className="py-2">
                     <div className="h-14 my-4">
                       <label className="block text-gray-600 text-sm font-normal">
-                        First Name
+                        Prenom
                       </label>
                       <input
                         type="text"
@@ -97,7 +97,7 @@ const AddUser = () => {
                     </div>
                     <div className="h-14 my-4">
                       <label className="block text-gray-600 text-sm font-normal">
-                        Last Name
+                        Nom
                       </label>
                       <input
                         type="text"
@@ -133,14 +133,14 @@ const AddUser = () => {
                   type="button"
                   onClick={reset}
                 >
-                  Close
+                  Fermer
                 </button>
                 <button
                   className="bg-slate-600 text-white active:bg-slate-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                   type="button"
                   onClick={saveUser}
                 >
-                  Save Changes
+                  Sauvegarder les modifications
                 </button>
         
                 </div>

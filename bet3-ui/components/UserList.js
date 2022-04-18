@@ -52,8 +52,8 @@ const UserList = ({ user }) => {
                     <table className='min-w-full'>
                         <thead className='bg-gray-50'>
                             <tr>
-                                <th className='text-left font-medium text-gray-500 uppercase tracking-wide py-3 px-6'>FirstName</th>
-                                <th className='text-left font-medium text-gray-500 uppercase tracking-wide py-3 px-6'>LastName</th>
+                                <th className='text-left font-medium text-gray-500 uppercase tracking-wide py-3 px-6'>Prenom</th>
+                                <th className='text-left font-medium text-gray-500 uppercase tracking-wide py-3 px-6'>Nom</th>
                                 <th className='text-left font-medium text-gray-500 uppercase tracking-wide py-3 px-6'>Email</th>
                                 <th className='text-left font-medium text-gray-500 uppercase tracking-wide py-3 px-6'>Actions</th>
                             </tr>

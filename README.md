@@ -1,9 +1,10 @@
 ## Set up 
-Pour lancer le serveur de BDD en ligne de commande:
+Pour lancer le serveur de BDD (hsqldb) en ligne de commande:
 	 
 ```
 cd dans le dossier contenant hsqldb.jar
 ```
+Url BDD : 'jdbc:hsqldb:hsql://localhost/bet3db'
 Lancer la commande : 
 ```
 java -cp hsqldb.jar org.hsqldb.server.Server --database.0 file.bet3db --dbname.0 bet3db
