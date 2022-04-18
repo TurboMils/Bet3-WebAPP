@@ -1,3 +1,22 @@
+## Set up 
+Pour lancer le serveur de BDD en ligne de commande:
+	 
+```
+cd dans le dossier contenant hsqldb.jar
+```
+Lancer la commande : 
+```
+java -cp hsqldb.jar org.hsqldb.server.Server --database.0 file.bet3db --dbname.0 bet3db
+```
+Lancement du serveur :
+```
+cd Springboot_Project/bet3-ui/
+```
+
+```
+npm run dev
+```
+
 ## Explication projet  
 Premièrement excusez moi pour le retard de dépot.
 
