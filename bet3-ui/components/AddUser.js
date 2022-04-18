@@ -61,7 +61,7 @@ const AddUser = () => {
           <button
             onClick={() => setShowModal(true)}
             className="rounded bg-slate-600 text-white px-6 py-2 font-semibold">
-            Add User
+            Ajouter utilisateur
           </button>
         </div>
       </div>
