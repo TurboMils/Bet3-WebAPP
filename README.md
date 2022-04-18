@@ -1,3 +1,6 @@
+Premièrement excusez moi pour le retard de dépot. 
+
+
 ## Set up 
 Pour lancer le serveur de BDD (hsqldb) en ligne de commande:
 	 
@@ -19,7 +22,7 @@ npm run dev
 ```
 
 ## Explication projet  
-Premièrement excusez moi pour le retard de dépot.
+
 
 Cette WebAPP n'a pas réellement de sens en elle même, elle m'a surtout permis de découvrir Springboot, créer une API complète et découvrir react avec Next.js. 
 
