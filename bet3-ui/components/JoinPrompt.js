@@ -20,6 +20,7 @@ export function JoinPrompt() {
             J'ai crée 3 entity: <b>User</b>, <b>Livre</b> et <b>Auteur</b>. 
             J'ai eu des difficultés à implémenter le OneToMany et ManyToOne, mes entitées n'ont donc pas encore de relation entre elles.
             <br></br>
+            
            
           </p>
         </div>
