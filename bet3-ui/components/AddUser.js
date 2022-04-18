@@ -140,7 +140,7 @@ const AddUser = () => {
                   type="button"
                   onClick={saveUser}
                 >
-                  Sauvegarder les modifications
+                  Enregistrer
                 </button>
         
                 </div>
